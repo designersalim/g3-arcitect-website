@@ -162,7 +162,7 @@
   }
 
   .some-facts-description{
-    width: 542px;
+    max-width: 542px;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 100px;
@@ -183,6 +183,13 @@
     .features{
         margin-left: 20px;
     }
+
+    .facts-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 24px;
+    }
+
   }
 
   @media screen and (min-width:576px) and (max-width:990px) {
