@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-fonts {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .display-flex{
+    display: flex;
+  }
+
+  .dark-3{
+    color: rgb(114, 114, 114);
+  }
+
+  .dark-2{
+    color: rgb(66, 66, 66);
+  }
+
+  .dark-1{
+    color: rgb(19, 19, 19);
+  }
+
+  .header-bg-color{
+    background: rgba(255, 144, 14, 0.1);
+  }
+
+  .btn-1{
+    background: rgb(255, 144, 14);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  /* header styles */
+
+  /* navbar styles */
+  .brand{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-itmes{
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* banner styles */
+
+  .banner-content{
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 32px;
+
+  }
+
+  .banner-bg-image{
+    width: 100%;
+  }
+
+  /* responsive area */
+
+  @media screen and (max-width:576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+  }
